@@ -12,3 +12,6 @@ Projeto_02 criado usando tecnologia HTML e CSS3:
 --- Projeto_02_002 - Criando formulário,banners
 
 --- Projeto_02_003 - Finalizando banner e aplicando responsivo
+
+--- Projeto_02_004 - Criando mosaico responsivo e finalizado o projeto.
+
