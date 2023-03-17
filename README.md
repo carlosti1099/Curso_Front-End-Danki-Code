@@ -1,5 +1,21 @@
 # #Curso Webmaster Front-End Completo Danki-Code
 
+Curso completo focado em devenvolvimento frontend com finalidade de conhecimento nas tecnologias:  
+1 - HTML, CSS e JavaScript / Jquery  ✅️  
+2 - Responsive Web Design   ✅️  
+2 - Pré-processadores SASS e LESS  
+4 - AngularJS  
+5 - Vue.Js  
+6 - React  
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/66273229/226023243-f967287f-4d21-448b-b021-e7cea1901e3c.png" width="40">
+  <img src="https://user-images.githubusercontent.com/66273229/226043364-8f39db2d-2351-4402-a53e-f0a82f403f2c.png" width="62">
+  <img src="https://user-images.githubusercontent.com/66273229/226047070-ae85d108-858d-4572-a949-d4ed2650d479.png" width="42">
+  <img src="https://user-images.githubusercontent.com/66273229/226053530-7769eb05-03e5-4916-a97d-a918a48d20c1.png" width="40">
+  <img src="https://user-images.githubusercontent.com/66273229/226056925-50ad2fe9-2609-497c-8722-e80d7bf225f3.png" width="48">
+  <img src="https://user-images.githubusercontent.com/66273229/226057164-1641f829-cc5a-4819-a82f-dfc78e7aa33f.png" width="74">
+</p>
+
 ## #- Modulo "Design Responsivo e Projeto Prático #1"
 --- Projeto_01 - Landing Page usando tecnologias Html5 e CSS3.
 
