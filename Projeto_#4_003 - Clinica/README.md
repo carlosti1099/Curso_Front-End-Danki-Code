@@ -13,3 +13,5 @@ Projeto_04:
 
 --- Projeto_04_002 - Criação Mosaico (galeria) e serviços;
 
+--- Projeto_04_003 - Criando sessão do perfil;
+
