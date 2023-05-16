@@ -43,4 +43,6 @@ Projeto_04 Clinica:
 
 --- Projeto_04_004 - Projeto #4 - Menu mobile, media queries etc
 
---- Projeto_04_005 - Projeto #4 - Incorporando videos e Sessão tratamentos 
+--- Projeto_04_005 - Projeto #4 - Incorporando videos e Sessão tratamentos
+
+--- Projeto_04_006 - Projeto #4 - Sessão depoimentos
