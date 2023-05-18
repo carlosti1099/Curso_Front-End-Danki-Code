@@ -20,3 +20,5 @@ Projeto_04 Clinica:
 --- Projeto_04_005 - Projeto #4 - Incorporando videos e Sessão tratamentos
 
 --- Projeto_04_006 - Projeto #4 - Sessão depoimentos
+
+--- projeto_04_007 - projeto #4 - Criando sessão instagran, facebook e mosaico
