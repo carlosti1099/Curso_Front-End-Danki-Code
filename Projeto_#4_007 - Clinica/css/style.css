@@ -337,6 +337,112 @@ section.depoimentos .depoimento-single{
 	font-size: 13px;
 }
 
+/*Form Contato*/
+section.contato{
+	padding: 60px 2%;
+}
+
+section.contato > h2{
+	color: #698293;
+	text-align: center;
+	font-size: 18px;
+}
+
+section.contato form{
+	width: 100%;
+	margin: 30px auto;
+	max-width: 500px;
+}
+
+.w100{
+	width: 100%;
+}
+
+.w50{
+	width: 50%;
+}
+
+.form-wraper{
+	float: left;
+	margin-top: 10px;
+	padding: 0 10px;
+}
+
+.form-wraper span{
+	font-size: 15px;
+	color: #b4b4b4;
+}
+
+.form-wraper input[type=text]{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 9px;
+	border: 1px solid #dadada;
+	margin-top: 8px;
+}
+
+.form-wraper textarea{
+	width: 100%;
+	margin-top: 8px;
+	padding: 8px;
+	height: 121px;
+	resize: none;
+	border: 1px solid #dadada;
+	/*resize: horizontal ou vertical;*/
+}
+
+.form-wraper input[type=submit]{
+	width: 100px;
+	display: inline-block;
+	height: 35px;
+	border: 0;
+	background: #688293;
+	color: white;
+	cursor: pointer;
+}
+/*Fim form Contato*/
+
+/*Footer*/
+footer{
+	padding: 40px 2%;
+	background-color: #688293;
+}
+
+footer .container{
+	max-width: 1100px;
+}
+
+footer .footer-block{
+	float: left;
+	width: calc(100% / 3);
+	text-align: center;
+}
+
+/*Utilizando css flexbox
+
+    footer .container{
+	display: flex;
+	max-width: 1100px;
+	justify-content: space-between;
+} */
+
+.footer-block h2{
+	color: white;
+	font-weight: normal;
+	font-size: 18px;
+	
+}
+
+.footer-block p{
+	margin-top: 8px;
+	color: white;
+	font-size: 14px;
+}
+/*fim Footer*/
+
+
+/*Dispositivo Móveis*/
 @media screen and (max-width: 1024px){
 	.img-mosaico-single-social{
 		width: calc(100% / 6);
@@ -370,84 +476,90 @@ section.depoimentos .depoimento-single{
 		flex-direction: column;
 	}
 
-		section.servicos > .container .box-servico:nth-of-type(1){
-			width: 90%;
-			max-width: 350px;
-			padding:30px 2%;
-		}
+	section.servicos > .container .box-servico:nth-of-type(1){
+		width: 90%;
+		max-width: 350px;
+		padding:30px 2%;
+	}
 
-		section.servicos > .container .box-servico:nth-of-type(2){
-			width: 94%;
-			max-width: 380px;
-			padding:40px 2%;
-		}
+	section.servicos > .container .box-servico:nth-of-type(2){
+		width: 94%;
+		max-width: 380px;
+		padding:40px 2%;
+	}
 
-		section.servicos > .container .box-servico:nth-of-type(3){
-			width: 90%;
-			max-width: 350px;
-			padding:30px 2%;
-		}
+	section.servicos > .container .box-servico:nth-of-type(3){
+		width: 90%;
+		max-width: 350px;
+		padding:30px 2%;
+	}
 
-		section.perfil-container .perfil-wraper{
-			padding-top: 0;
-		}
+	section.perfil-container .perfil-wraper{
+		padding-top: 0;
+	}
 
-		section.perfil-container .perfil-wraper2{
-			/*
-			position: absolute;
-			left: 0;
-			top: 0;
-			display: flex;
-			align-items: center;
-			width: 100%;
-			height:100%;
-			*/
-			height: auto;
-			position: static;
-			text-align: center;
-			display: inline-block;
-			/*flex-direction: column;*/
-		}
+	section.perfil-container .perfil-wraper2{
+		/*
+		position: absolute;
+		left: 0;
+		top: 0;
+		display: flex;
+		align-items: center;
+		width: 100%;
+		height:100%;
+		*/
+		height: auto;
+		position: static;
+		text-align: center;
+		display: inline-block;
+		/*flex-direction: column;*/
+	}
 
-		section.perfil-container .img-perfil{
-			width: 50%;
-			padding-top:70%;
-			display: inline-block;
-			height: auto;
-			/*
-			background-image: url('../imagens/img_perfil.png');
-			background-size: 100% 100%;
-			*/
-		}
+	section.perfil-container .img-perfil{
+		width: 50%;
+		padding-top:70%;
+		display: inline-block;
+		height: auto;
+		/*
+		background-image: url('../imagens/img_perfil.png');
+		background-size: 100% 100%;
+		*/
+	}
 
-		section.perfil-container .texto-perfil{
-			display: inline-block;
-			text-align: justify;
-			width: 100%;
-			padding:0 30px;
-		}
+	section.perfil-container .texto-perfil{
+		display: inline-block;
+		text-align: justify;
+		width: 100%;
+		padding:0 30px;
+	}
 
-		section.videos{
-			text-align: center;
-		}
+	section.videos{
+		text-align: center;
+	}
 
-		section.videos .box-video{
-			float: none;
-			width: 70%;
-			display: inline-block;
-			/*border: 5px solid white;*/
-			/*background-color: green;*/
-			padding-top:calc(70% + 0.6);
-		}
+	section.videos .box-video{
+		float: none;
+		width: 70%;
+		display: inline-block;
+		/*border: 5px solid white;*/
+		/*background-color: green;*/
+		padding-top:calc(70% + 0.6);
+	}
 
-		.img-mosaico-single-social{
-			width: calc(100% / 3);
-			padding-top: calc(100% / 3);
-		}
-	
-		.mosaico-social > div:nth-of-type(1n+4){
-			display: none;
-		}
+	.img-mosaico-single-social{
+		width: calc(100% / 3);
+		padding-top: calc(100% / 3);
+	}
+
+	.mosaico-social > div:nth-of-type(1n+4){
+		display: none;
+	}
+
+	footer .footer-block{
+		float: none;
+		width: 100%;
+		margin: 30px 0;
+	}
 }
 
 
@@ -462,6 +574,10 @@ section.depoimentos .depoimento-single{
 		/*border: 5px solid white;*/
 		/*background-color: green;*/
 		padding-top:calc(100% + 0.6);
+	}
+
+	.w50{
+		width: 100%;
 	}
 }
 
